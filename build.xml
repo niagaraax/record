@@ -1,0 +1,25 @@
+<!-- Module Build File -->
+
+<module
+  name = "record"
+  bajaVersion = "0"
+  specVersion = "1"  
+  preferredSymbol = "record"
+  description = "history record and reference enums, and json support"
+  vendor = "guardian"
+  venderVersion = "1.0"
+>
+
+  <!-- Dependencies -->
+  <dependency name="alarm" vendor="Tridium" vendorVersion="3.6" />
+  <dependency name="baja" vendor="Tridium" vendorVersion="3.6" />
+  <dependency name="control" vendor="Tridium" vendorVersion="3.6" />
+  <dependency name="history" vendor="Tridium" vendorVersion="3.6" />
+
+  <!-- Packages -->
+  <package name="com.guardian" />
+  <package name="com.guardian.enums" />
+  <package name="com.guardian.history.records" />
+  <!-- Resources -->
+	<resources name="res/*.*" />
+</module>
